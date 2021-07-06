@@ -11,27 +11,27 @@
     flex-wrap: wrap;
     justify-content: center;
     padding: 0px 0px 0px 70px;
-    cursor: url("avocado60.png") 30 37, pointer;
+    cursor: url("https://raw.githubusercontent.com/jAdelaide/Guac-a-mole/main/avocado60.png") 30 37, pointer;
 }
 .moleHole {
     width: 27%;
     height: 27%;
     margin: 2%;
-    border: none;
+    border: 1px solid rgb(68, 34, 3);
     border-radius: 100px;
-    box-shadow: 0px 0px 10px 10px rgba(191, 108, 255, 0.6);
+    box-shadow: 0px 0px 10px 10px rgba(255, 167, 108, 0.6);
 }
 .mole{
-    background-image: url(mole.png);
+    background-image: url(https://raw.githubusercontent.com/jAdelaide/Guac-a-mole/main/mole.png);
     background-size: 85%;
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
     box-shadow: 0px 0px 10px 10px rgba(204, 154, 243, 0.75), 0px 0px 20px 20px rgba(110, 55, 151, 0.75), 0px 0px 30px 30px rgba(191, 108, 255, 0.75);
-    cursor: url("avocado90.png") 50 50, pointer;
+    cursor: url("https://raw.githubusercontent.com/jAdelaide/Guac-a-mole/main/avocado90.png") 50 50, pointer;
 }
 .hitMole {
-    background-image: url(hitMole.png);
+    background-image: url(https://raw.githubusercontent.com/jAdelaide/Guac-a-mole/main/hitMole.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -44,12 +44,13 @@
     font-weight: bolder;
     font-size: 30px;
     background-color: rgb(131, 71, 2);
+    box-shadow: 0px 0px 5px 5px rgba(255, 167, 108, 0.6);
     border: none;
     border-radius: 10px;
     padding: 20px 15px;
     display: inline-block;
     margin: 0px 0px 50px 30px;
-    cursor: url("avocado90.png") 50 50, pointer;
+    cursor: url("https://raw.githubusercontent.com/jAdelaide/Guac-a-mole/main/avocado90.png") 50 50, pointer;
     transition-duration: 1s
 }
 .molePauseScreen {
@@ -63,7 +64,7 @@
     backdrop-filter: blur(7px);
     display: none;
     flex-wrap: wrap;
-    cursor: url("avocado90.png") 50 50, pointer;
+    cursor: url("https://raw.githubusercontent.com/jAdelaide/Guac-a-mole/main/avocado90.png") 50 50, pointer;
 }
 .showScreen {
     display: flex;
@@ -72,7 +73,7 @@
     width: 100%;
     height: 80%;
     margin-top: 10px;
-    background-image: url(hitMole.png);
+    background-image: url(https://raw.githubusercontent.com/jAdelaide/Guac-a-mole/main/hitMole.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -87,5 +88,6 @@
 }
 h2 {
     font-family: Impact;
-    color: rgb(66, 121, 53)
+    font-weight: 500;
+    color: rgb(83, 153, 67);
 }
